@@ -30,6 +30,13 @@ select {
     margin-right: 98px;
 }
 
+.movie:focus,
+.movie:active,
+.movie:focus-visible {
+    outline: none;
+    border: none;
+}
+
 .showcase li {
     display: flex;
     justify-content: center;
